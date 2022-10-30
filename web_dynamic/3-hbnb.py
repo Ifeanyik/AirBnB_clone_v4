@@ -6,7 +6,7 @@ import uuid
 from flask import Flask, render_template, url_for
 from models import storage
 
-# my_flask setup
+# my_flask initial setup
 app = Flask(__name__)
 app.url_map.strict_slashes = False
 port = 5000
